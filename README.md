@@ -1,3 +1,3 @@
 # Pacman-Game
 
-Just a Pacman Game in JS for CG.
+Just a Pacman Game using HTML, CSS and JS for CG.
