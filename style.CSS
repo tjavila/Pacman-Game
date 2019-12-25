@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+div.row {
+    height:20px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+    margin: 0px;
+}
+
+/*border*/
+div.brick{
+    background-color: blue;
+}
+div.left{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+div.right{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+div.top{
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+div.bottom{
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+div.lefttop{
+    border-top-left-radius: 100%;
+}
+div.leftbottom{
+    border-bottom-left-radius: 100%;
+}
+div.righttop{
+    border-top-right-radius: 100%;
+}
+div.rightbottom{
+    border-bottom-right-radius: 100%;
+}
+
+#texto{
+  position:fixed;
+  font-size:15pt;
+  color:yellow;
+  margin-top:137px;
+  margin-left:500px
+}
+
+#texto2{
+  position:fixed;
+  font-size:15pt;
+  color:yellow;
+  margin-top:85px;
+  margin-left:500px
+}
+
+#texto3{
+  position:fixed;
+  font-size:40pt;
+  color:yellow;
+  margin-top:1px;
+  margin-left:500px
+}
+
+div.coin{
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/mario-coin-animated-gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5px;
+}
+
+
+div#pacman{
+    background-image: url(https://thumbs.gfycat.com/ClutteredGreatIndianpalmsquirrel-small.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div#ghost{
+    background-image: url(https://raw.githubusercontent.com/tjavila/vvbccv/master/ghost.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div#ghost2{
+    background-image: url(https://pa1.narvii.com/6575/e91d2596599f97c0e79868da62d1b2064319099e_128.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+}
+
+div#score{
+    border: 3px solid white;
+    width: 40px;
+    height: 20px;
+    color: green;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 555px;
+}
+
+div#lives{
+    border: 3px solid white;
+    width: 40px;
+    height: 20px;
+    color: green;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 555px;
+}
+
+.down{
+    -ms-transform: rotate(-90deg)
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
+}
+.up{
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.right{
+
+}
+.left{
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+
+#gameover{
+    background-image: url(https://raw.githubusercontent.com/tjavila/vvbccv/master/pac-man-game-over-gratis.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 30px solid black;
+    width: 440px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
